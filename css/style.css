@@ -12,43 +12,32 @@
 
 /*HEADER*/
 
-.logo-principal {
-height: auto;
+.logo-principal{
+width: auto;
 cursor: pointer;
-padding-left: 5%;
-
 }
 
 .contenedor-ilus-inicial{
 display: flex;
 justify-content:center;
 align-items: center;
+overflow: hidden;
 
 }
 
-.contenedor-ilus-inicial:hover .ilus-home{-webkit-transform:scale(1.4);transform:scale(1.4);}
+.contenedor-ilus-inicial:hover .ilus-home{-webkit-transform:scale(1.3);transform:scale(1.3);}
 .contenedor-ilus-inicial{overflow:hidden;}
 
 .ilus-home{
-padding-top: 0%;
-width: 80%;
-height: auto;  
+padding-top: 2rem;
+width: 81%;
+height: auto;
 }
 
-.header{
-    display: flex;
-    list-style-type: style none;
-    justify-content: space-around;
-    padding: 5%;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
+.container-fluid {
+display: flex; 
+text-decoration: none; 
 
-.barra-nav {
-    display: flex; 
-    text-decoration: none; 
-    margin-bottom: 10px;
-    flex-wrap: wrap;
 }
 
 ul li a{
@@ -58,30 +47,22 @@ ul li a{
     color: rgb(0, 0, 0);
     font-family: 'Source Code Pro', monospace;
     font-weight: unset;
-    letter-spacing: 0,5px;
-    margin:30px;
+    margin:25px;
+
 }
 
-nav ul li a:hover{
-color: #ff8000;
- }
+ul li a:hover{color: #ec7412;}
 
-.menu {
-display: flex;
-list-style: none;
-align-items: flex-end; 
-}
 
 /* MAIN */
 .main-home{
     display: flex;
     align-content: center;
-   
+ 
 }
 
 
 /* index */
-
 
 .img-inicio{
     display: flex;
@@ -124,6 +105,12 @@ align-items: flex-end;
 /*MOBILE */
 
 @media (min-width: 450px){
+
+    .logo-principal{
+        width: auto;
+        cursor: pointer;
+        }
+        
 
 .barra-nav ul li {
     align-items: center;
@@ -185,7 +172,7 @@ background-color: none;
     font-weight: bold;
     }
 .animaciones-bio:hover>div{
-    transform: translateX(100px);
+    transform: translateX(70px);
 
     }
 
@@ -221,97 +208,68 @@ transition: all 1s ease-in;
 .container-bio{
     background-color: none;
     display: flex;
+    justify-content: center;
+    align-content: center;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 5%;
+    margin-top: 5%;
+
 }
 
 
-
-.bio1{
-    width: 40%;
-    padding-left: 8%;
-    margin-top: 0;
-    align-items: flex-start;
-    justify-items: flex-start;
-    flex-wrap: wrap;
-    margin-right: 5%;
-}
-    
-    
-    .bio2 {
-        margin-top: 0;
-        align-content: flex-start;
-        padding-top: 2%;
-        padding-left: 2%;
-        padding-right: 8%;
-        font-family: 'Source Code Pro', monospace;
-        flex-wrap: wrap;
-    }
 
     /* Contacto */
 
-    .para-contacto{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-content: center;
-        flex-wrap: wrap;
-        top:0;
-    }
-    
-    .ubicacion{
-        background-color: none;
-        display: flex;
-        margin-left: 10%;
-        justify-items: center;
-        align-items:center;
-        top:0;
-        
-    }
-    
-    .ubicacion iframe{
-        padding: 0;
-        margin: 10%;
-    }
+iframe{
+margin-top: 15%;
 
-    .contacto{
-        background-color: none;
-        margin: 10%;
-        font-size: 14px;
-        color: #ec7412;
-        font-family: sans-serif;
-    }
+}
+
+.contacto{
+align-items: center;
+margin-top: 15%;
+background-color: none;
+font-size: 14px;
+color: #ec7412;
+font-family: sans-serif;
+}
     
-    .contacto label, .contacto input, .contacto textarea{
-        display: block;
-        width: 400px;
-        margin-bottom: 8px;
-    }
+.contacto label, .contacto input, .contacto textarea{
+display: block;
+width: 400px;
+
+}
     
-    .contacto label{
-        font-family: 'Source Code Pro', monospace;
-    }
+.contacto label{
+font-family: 'Source Code Pro', monospace;
+}
     
-    .contacto input, .contacto textarea{
-        font-family: 'Source Code Pro', monospace;
-        border: none;
-        border-bottom: 2px dotted #555555;
-        margin-bottom: 20px;
-        outline: none;
-      
-    }
-    .contacto textarea{
-        min-height: 100px;
-    }
+.contacto input, .contacto textarea{
+font-family: 'Source Code Pro', monospace;
+border: none;
+border-bottom: 2px dotted #555555;
+margin-bottom: 20px;
+outline: none;
+}
+
+.contacto textarea{
+min-height: 100px;
+}
     
-    input[type='submit']{
-    
-        padding: 10px;  
-        border: none;
-        background-color: #ec7412;
-        color: white;
-        font-size: 14px;
-        cursor: pointer;
-    }
-    
+input[type='submit']{
+padding: 10px;  
+border: none;
+background-color: #ec7412;
+color: white;
+font-size: 14px;
+cursor: pointer;
+
+}
+
+
+
+/* Tienda */
+
+.sec-tienda{display: flex;
+    justify-content: space-around;
+
+}
