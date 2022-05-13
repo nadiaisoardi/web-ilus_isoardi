@@ -1,0 +1,38 @@
+
+   
+header{
+   .container-fluid {
+    display: flex; 
+    text-decoration: none;
+
+    .logo-principal{
+        width: auto;
+        cursor: pointer;
+        
+        ul{
+            li{
+                a{width: 50%;
+                    text-decoration: none;  
+                    font-size:  1rem;
+                    color: rgb(0, 0, 0);
+                    font-family: 'Source Code Pro', monospace;
+                    font-weight: unset;
+                    margin:25px;
+
+                    &:hover{color: #ec7412;
+                }
+            }
+        }
+    }
+}
+
+        
+        
+         
+   
+   
+    
+ 
+    
+:hover{color: #ec7412;}
+    
