@@ -1,18 +1,176 @@
-/* Error: expected "}".
- *    ,
- * 37 | :hover{color: #ec7412;}
- *    |                        ^
- *    '
- *   scss\componentes\_header.scss 37:24  @import
- *   scss\style.scss 4:9                  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a    \2577 \a 37 \2502  :hover{color: #ec7412;}\d\a    \2502                         ^\a    \2575 \a   scss\\componentes\\_header.scss 37:24  @import\a   scss\\style.scss 4:9                  root stylesheet';
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+h2 {
+  color: rgb(252, 131, 18);
+  font-size: 1.5rem;
+}
+
+/* FOOTER */
+.pie-web {
+  display: flex;
+  padding: 5%;
+  margin: 10px;
+  justify-content: space-between;
+  align-content: center;
+}
+.pie-web .derechos-r {
+  justify-content: space-around;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #6b6b6b;
+  font-size: x-small;
+}
+.pie-web .derechos-r .redes-s {
+  width: 10%;
+  justify-content: space-around;
+}
+
+.slider {
+  width: 85%;
+  padding-top: 0%;
+  justify-content: center;
+  margin: auto;
+  overflow: hidden;
+}
+.slider .carrousel {
+  width: 100%;
+  display: flex;
+  width: 400%;
+  animation: carrousel 20s linear infinite alternate;
+}
+.slider .carrousel li {
+  list-style: none;
+}
+.slider .carrousel li .ilus-carrousel {
+  width: 100%;
+}
+@keyframes carrousel {
+  /* PRIMER ILUS */
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  /* SEGUNDA ILUS */
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  /* TERCER ILUS */
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  /* CUARTA ILUS */
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+header container .nav-bar ul {
+  font-family: "Source Code Pro", monospace;
+}
+
+/*tipografía Google Fonts */
+/*font-family: 'Source Code Pro', monospace; */
+.contacto {
+  padding: 2%;
+}
+
+.servicios {
+  background-color: rgb(252, 131, 18);
+  padding: 2%;
+}
+.servicios .titulos-seccion {
+  display: flex;
+  font-family: "Source Code Pro", monospace;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+
+.bio {
+  padding: 2%;
+}
+.bio .container-bio {
+  background-color: none;
+  font-family: "Source Code Pro", monospace;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+.bio .container-bio .fotobio .animaciones-bio:hover div {
+  transform: translateX(8rem);
+  animation-play-state: running;
+  animation: animaciones-bio 10s delay infinite normal;
+}
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos1,
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos2,
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos3,
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos4 {
+  position: relative;
+  border-radius: 50%;
+  height: 5px;
+  width: 5px;
+  margin: 1rem;
+}
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos1 .puntitos1,
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos2 .puntitos1,
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos3 .puntitos1,
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos4 .puntitos1 {
+  background-color: rgb(138, 138, 138);
+  transition: all 1s linear;
+}
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos1 .puntitos1 .puntitos2,
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos2 .puntitos1 .puntitos2,
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos3 .puntitos1 .puntitos2,
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos4 .puntitos1 .puntitos2 {
+  background-color: rgb(138, 138, 138);
+  transition: all 2s ease-in-out;
+}
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos1 .puntitos1 .puntitos2 .puntitos3,
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos2 .puntitos1 .puntitos2 .puntitos3,
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos3 .puntitos1 .puntitos2 .puntitos3,
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos4 .puntitos1 .puntitos2 .puntitos3 {
+  background-color: rgb(138, 138, 138);
+  transition: all 2, 5s ease-in;
+}
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos1 .puntitos1 .puntitos2 .puntitos3 .puntitos4,
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos2 .puntitos1 .puntitos2 .puntitos3 .puntitos4,
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos3 .puntitos1 .puntitos2 .puntitos3 .puntitos4,
+.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos4 .puntitos1 .puntitos2 .puntitos3 .puntitos4 {
+  background-color: rgb(138, 138, 138);
+  transition: all 1s ease-in;
+}
+
+.seccion-portfolio .container-portfolio .titulos-seccion {
+  display: flex;
+  font-family: "Source Code Pro", monospace;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+.seccion-portfolio .container-portfolio .titulos-seccion .imagen-portfolio {
+  width: 50%;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

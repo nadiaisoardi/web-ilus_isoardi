@@ -124,7 +124,7 @@ animation: carrousel 21s linear infinite alternate;
     }
 .animaciones-bio:hover div{
     transform: translateX(8rem);
-    -o-animation-play-state: running;
+    animation-play-state: running;
     animation: animaciones-bio 10s delay infinite normal; 
  }
 

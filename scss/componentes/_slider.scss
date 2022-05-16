@@ -1,0 +1,49 @@
+.slider{
+    width: 85%;
+    padding-top: 0%;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+
+    .carrousel{  
+        width: 100%;
+        display: flex;
+        width: 400%;
+
+        animation: carrousel 20s linear infinite alternate;
+
+        li { list-style:none;
+       
+           
+            .ilus-carrousel{
+                width: 100%;
+
+
+                @keyframes carrousel{
+                    /* PRIMER ILUS */
+                    
+                    0%{margin-left: 0;}
+                    20%{margin-left: 0;}
+                    
+                    /* SEGUNDA ILUS */
+                    
+                    25%{margin-left: -100%;}
+                    45%{margin-left: -100%;}
+                    
+                    /* TERCER ILUS */
+                    
+                    50%{margin-left: -200%;}
+                    70%{margin-left: -200%;}
+                   
+                   
+                    /* CUARTA ILUS */
+                
+                      75%{margin-left: -300%;}
+                      100%{margin-left: -300%;}
+                      
+                    
+                    } 
+                }
+            }
+        }
+    }
