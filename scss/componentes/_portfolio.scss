@@ -2,17 +2,14 @@
 
 
 .seccion-portfolio{
+
+
      .container-portfolio{
                          
-        .titulos-seccion{
-            display: flex;
-                font-family: $font-family;
-                font-size: 2rem;
-                align-items: center;
-                justify-content: center;
-                padding-bottom: 2%;
-        
-        .imagen-portfolio{
+         
+         .titulos-seccion{@extend %formato-titulo;
+
+            .imagen-portfolio{
             width: 50%;
             border-radius: 50%;
 

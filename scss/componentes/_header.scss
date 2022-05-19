@@ -1,10 +1,61 @@
-header{ container{
-    .nav-bar{ ul{font-family: 'Source Code Pro', monospace;;
+@import '../base/variables';
+@import '../base/mapa';
 
 
+header{
+    font-family: $font-family;
+    background-color: map-get($header,bg-color);
+
+    
+    nav{
+      
+        div{
+            
+            ul{
+                
+                
+                
+                li{width: 50%; 
+                    font-size:  1rem; 
+                    font-weight: unset;
+                    margin:25px;
+
+                    .lista-menu{  text-decoration: none;
+                        color: grey;
+                        &:hover{color: orange;}
+                         
+
+
+                    }
+                    
+
+                            
+                    
+                        
+                            
+                 
+                                               
+
+                            
+                                                         
+                            
+                                                     
+
+
+                                                    
+                                                   
+
+                                
+
+
+                            
+                        
+                        
+                        
+                    
+                }
+            }
+        }
     }
-    }
-}
-
 
 }

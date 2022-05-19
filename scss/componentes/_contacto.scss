@@ -1,6 +1,14 @@
 
 @import '../base/variables';
+@import '../base/mixin';
 
-.contacto{padding: $padding-caja;
+.seccion-contacto{
 
-}
+    
+    .titulos-seccion-contacto{
+        @include formato-titulos-variables(flex, Source Code Pro, 2rem, center, center, 2%);
+       
+    
+    }
+
+    }

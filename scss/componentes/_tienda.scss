@@ -1,5 +1,17 @@
 @import '../base/variables';
 
-.seccion-tienda{padding: $padding-caja;
+.sec-tienda{padding: $padding-caja;
+    align-content: space-between;
+    justify-content: center;
+    margin: auto;
+    background-color:none ;
+   
+    .titulos-seccion-tienda{@extend %formato-titulo;
+
+
+
+    }
+
+
 
 }

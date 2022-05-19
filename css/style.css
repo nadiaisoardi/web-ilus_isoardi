@@ -1,34 +1,30 @@
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-h2 {
+h3 {
   color: rgb(252, 131, 18);
   font-size: 1.5rem;
 }
 
-/* FOOTER */
-.pie-web {
-  display: flex;
-  padding: 5%;
-  margin: 10px;
-  justify-content: space-between;
-  align-content: center;
+header {
+  font-family: "Source Code Pro", monospace;
+  background-color: rgb(253, 236, 211);
 }
-.pie-web .derechos-r {
-  justify-content: space-around;
-  font-family: sans-serif;
-  font-weight: bold;
-  color: #6b6b6b;
-  font-size: x-small;
+header nav div ul li {
+  width: 50%;
+  font-size: 1rem;
+  font-weight: unset;
+  margin: 25px;
 }
-.pie-web .derechos-r .redes-s {
-  width: 10%;
-  justify-content: space-around;
+header nav div ul li .lista-menu {
+  text-decoration: none;
+  color: grey;
+}
+header nav div ul li .lista-menu:hover {
+  color: orange;
 }
 
 .slider {
@@ -81,18 +77,28 @@ h2 {
   }
 }
 
-header container .nav-bar ul {
-  font-family: "Source Code Pro", monospace;
+/* FOOTER */
+.pie-web {
+  display: flex;
+  padding: 5%;
+  margin: 10px;
+  justify-content: space-between;
+  align-content: center;
 }
-
-/*tipografía Google Fonts */
-/*font-family: 'Source Code Pro', monospace; */
-.contacto {
-  padding: 2%;
+.pie-web .derechos-r {
+  justify-content: space-around;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #6b6b6b;
+  font-size: x-small;
+}
+.pie-web .derechos-r .redes-s {
+  width: 10%;
+  justify-content: space-around;
 }
 
 .servicios {
-  background-color: rgb(252, 131, 18);
+  background-color: rgb(247, 217, 232);
   padding: 2%;
 }
 .servicios .titulos-seccion {
@@ -109,68 +115,91 @@ header container .nav-bar ul {
 }
 .bio .container-bio {
   background-color: none;
-  font-family: "Source Code Pro", monospace;
+  font-family: "Source Code Pro", monospace rgb(168, 168, 168);
   width: 85%;
   display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: row;
 }
-.bio .container-bio .fotobio .animaciones-bio:hover div {
+.animaciones-bio .bio .container-bio .fotobio:hover div {
   transform: translateX(8rem);
   animation-play-state: running;
   animation: animaciones-bio 10s delay infinite normal;
 }
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos1,
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos2,
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos3,
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos4 {
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos1,
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos2,
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos3,
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos4 {
   position: relative;
   border-radius: 50%;
   height: 5px;
   width: 5px;
   margin: 1rem;
 }
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos1 .puntitos1,
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos2 .puntitos1,
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos3 .puntitos1,
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos4 .puntitos1 {
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos1 .puntitos1,
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos2 .puntitos1,
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos3 .puntitos1,
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos4 .puntitos1 {
   background-color: rgb(138, 138, 138);
   transition: all 1s linear;
 }
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos1 .puntitos1 .puntitos2,
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos2 .puntitos1 .puntitos2,
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos3 .puntitos1 .puntitos2,
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos4 .puntitos1 .puntitos2 {
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos1 .puntitos1 .puntitos2,
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos2 .puntitos1 .puntitos2,
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos3 .puntitos1 .puntitos2,
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos4 .puntitos1 .puntitos2 {
   background-color: rgb(138, 138, 138);
   transition: all 2s ease-in-out;
 }
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos1 .puntitos1 .puntitos2 .puntitos3,
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos2 .puntitos1 .puntitos2 .puntitos3,
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos3 .puntitos1 .puntitos2 .puntitos3,
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos4 .puntitos1 .puntitos2 .puntitos3 {
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos1 .puntitos1 .puntitos2 .puntitos3,
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos2 .puntitos1 .puntitos2 .puntitos3,
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos3 .puntitos1 .puntitos2 .puntitos3,
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos4 .puntitos1 .puntitos2 .puntitos3 {
   background-color: rgb(138, 138, 138);
   transition: all 2, 5s ease-in;
 }
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos1 .puntitos1 .puntitos2 .puntitos3 .puntitos4,
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos2 .puntitos1 .puntitos2 .puntitos3 .puntitos4,
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos3 .puntitos1 .puntitos2 .puntitos3 .puntitos4,
-.bio .container-bio .fotobio .animaciones-bio:hover div .puntitos4 .puntitos1 .puntitos2 .puntitos3 .puntitos4 {
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos1 .puntitos1 .puntitos2 .puntitos3 .puntitos4,
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos2 .puntitos1 .puntitos2 .puntitos3 .puntitos4,
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos3 .puntitos1 .puntitos2 .puntitos3 .puntitos4,
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos4 .puntitos1 .puntitos2 .puntitos3 .puntitos4 {
   background-color: rgb(138, 138, 138);
   transition: all 1s ease-in;
 }
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos1 .puntitos1 .puntitos2 .puntitos3 .puntitos4 .titulos-seccion-bio,
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos2 .puntitos1 .puntitos2 .puntitos3 .puntitos4 .titulos-seccion-bio,
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos3 .puntitos1 .puntitos2 .puntitos3 .puntitos4 .titulos-seccion-bio,
+.animaciones-bio .bio .container-bio .fotobio:hover div .puntitos4 .puntitos1 .puntitos2 .puntitos3 .puntitos4 .titulos-seccion-bio {
+  color: orange;
+}
 
-.seccion-portfolio .container-portfolio .titulos-seccion {
+.seccion-portfolio .container-portfolio .titulos-seccion .imagen-portfolio {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.seccion-contacto .titulos-seccion-contacto {
+  display: flex;
+  font-family: Source Code Pro;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+
+.sec-tienda {
+  padding: 2%;
+  align-content: space-between;
+  justify-content: center;
+  margin: auto;
+  background-color: none;
+}
+.seccion-portfolio .container-portfolio .titulos-seccion, .sec-tienda .titulos-seccion-tienda {
   display: flex;
   font-family: "Source Code Pro", monospace;
   font-size: 2rem;
   align-items: center;
   justify-content: center;
   padding-bottom: 2%;
-}
-.seccion-portfolio .container-portfolio .titulos-seccion .imagen-portfolio {
-  width: 50%;
-  border-radius: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

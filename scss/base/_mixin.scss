@@ -1,0 +1,10 @@
+
+@mixin formato-titulos-variables($display, $ff, $fs, $ai, $jc, $pb){
+    display:$display;
+    font-family: $ff;
+    font-size: $fs;
+    align-items: $ai;
+    justify-content: $jc;
+    padding-bottom: $pb ;
+    
+}

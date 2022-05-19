@@ -8,36 +8,39 @@
         justify-content:center;
         align-content: center;
         flex-direction: row;
+        
         .fotobio{
 
-        .animaciones-bio:hover div{
+          .animaciones-bio &:hover div{
             transform: translateX(8rem);
             animation-play-state: running;
             animation: animaciones-bio 10s delay infinite normal; 
 
-        .puntitos1,
-        .puntitos2,
-        .puntitos3,
-        .puntitos4{
+         .puntitos1,
+         .puntitos2,
+         .puntitos3,
+         .puntitos4{
             position: relative;
             border-radius: 50%;
             height: 5px;
             width: 5px;
             margin: 1rem;
         
-        .puntitos1
-        {background-color: rgb(138, 138, 138);
-        transition: all 1s linear;
+         .puntitos1
+         {background-color: rgb(138, 138, 138);
+         transition: all 1s linear;
          
-        .puntitos2{background-color:rgb(138, 138, 138);
-        transition: all 2s ease-in-out;
+         .puntitos2{background-color:rgb(138, 138, 138);
+         transition: all 2s ease-in-out;
     
-        .puntitos3{background-color:rgb(138, 138, 138);
-        transition: all 2,5s ease-in;
+         .puntitos3{background-color:rgb(138, 138, 138);
+         transition: all 2,5s ease-in;
         
-        .puntitos4{background-color: rgb(138, 138, 138);
-        transition: all 1s ease-in;
-        
+         .puntitos4{background-color: rgb(138, 138, 138);
+         transition: all 1s ease-in;
+
+          .titulos-seccion-bio{color: orange;}
+         
     }
         
     
