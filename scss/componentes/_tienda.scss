@@ -1,10 +1,9 @@
 @import '../base/variables';
 
-.sec-tienda{padding: $padding-caja;
-    align-content: space-between;
-    justify-content: center;
-    margin: auto;
-    background-color:none ;
+.sec-tienda{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1 fr));
+   gap:10%;
    
     .titulos-seccion-tienda{@extend %formato-titulo;
 
