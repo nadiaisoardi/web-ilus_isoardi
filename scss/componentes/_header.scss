@@ -2,60 +2,44 @@
 @import '../base/mapa';
 
 
-header{
+header {
     font-family: $font-family;
-    background-color: map-get($header,bg-color);
+    background-color: map-get($header, bg-color);
+    width: 100%;
+
+    nav { 
 
     
-    nav{
-      
-        div{
-            
-            ul{
-                
-                
-                
-                li{width: 50%; 
-                    font-size:  1rem; 
+
+        div {
+
+            ul {
+             padding-top: 6rem;
+
+                li {
+                  width: 50%;
+                   font-size: 1rem;
                     font-weight: unset;
-                    margin:25px;
+                    margin: 25px;
+  
 
-                    .lista-menu{  text-decoration: none;
-                        color: grey;
-                        &:hover{color: orange;}
-                         
-
-
+                    .lista-menu {
+                       text-decoration: none;
+                      color: grey;
+                        &:hover {
+                        color: orange;
+                    
+                        
                     }
+
+
                     
-
-                            
-                    
-                        
-                            
-                 
-                                               
-
-                            
-                                                         
-                            
-                                                     
-
-
-                                                    
-                                                   
-
-                                
-
-
-                            
-                        
-                        
-                        
-                    
+  
                 }
             }
         }
     }
+
+}
 
 }

@@ -1,27 +1,21 @@
-@import '../base/variables';
-
-
 .seccion-portfolio{
-
-
-     .container-portfolio{
-                         
-         
-         .titulos-seccion{@extend %formato-titulo;
-
-            .imagen-portfolio{
-            width: 50%;
-            border-radius: 50%;
-
-
-          }
-
+  width: 100%;
+  height: 100%;
+  padding-bottom: 3%;
+   
+  .columna{margin:0!important; padding: 1rem;
+              
+    .img-portfolio{
+      border-radius: 3%;
+      width: 100%;
+      &:hover{border: 8px solid rgb(255, 255, 255);
+        
+        
     }
-
- }
+        
+  }
 
 }
 
-
-
+}
 

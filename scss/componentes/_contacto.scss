@@ -1,14 +1,35 @@
 
-@import '../base/variables';
-@import '../base/mixin';
+.contacto{
+  width: 85%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  align-content: center;
+  justify-content: center;
 
-.seccion-contacto{
+  
+  .titulos-seccion-contacto{display: flex;
+    font-family: $font-family;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    
+            
 
-    
-    .titulos-seccion-contacto{
-        @include formato-titulos-variables(flex, Source Code Pro, 2rem, center, center, 2%);
-       
-    
+               
+                   
+                  
+                   
+
+
+
     }
 
-    }
+
+
+
+} 
+
+
+    
+    

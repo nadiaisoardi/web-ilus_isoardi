@@ -1,14 +1,26 @@
-@import '../base/variables';
 
-.servicios{background-color: $bg-color-general;
-           padding: $padding-caja ;
-           
-           .titulos-seccion{display: flex;
-                            font-family: $font-family;
-                            font-size: 2rem;
-                            align-items: center;
-                            justify-content: center;
-                            padding-bottom: 2%;
+
+.cont-servicios{background-color: $bg-color-general;
+   align-items: center;
+   justify-content: center;
+   
+   
+   .titulos-seccion{display: flex;
+      font-family: $font-family;
+      font-size: 2rem;
+      align-items: center;
+      justify-content: center;
+      padding-top: 3%;
+      padding-bottom: 5%;
+     
+         .img{
+      
+            .items-serv{padding: 20%;
+             color: rgb(99, 6, 6);
+
+   }
+}
 
 }
+
 }
