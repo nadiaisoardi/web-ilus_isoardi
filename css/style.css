@@ -7,6 +7,17 @@
 h1 {
   color: rgb(99, 6, 6);
   font-size: 1.5rem;
+  padding-bottom: 2%;
+}
+
+h2 {
+  font-family: "Source Code Pro", monospace;
+  font-size: 2rem;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
 }
 
 h3 {
@@ -18,9 +29,11 @@ header {
   font-family: "Source Code Pro", monospace;
   background-color: rgba(255, 255, 255, 0.822);
   width: 100%;
+  padding-top: 2%;
+  margin: 1rem;
 }
 header nav div ul {
-  padding-top: 6rem;
+  padding-top: 6.5rem;
 }
 header nav div ul li {
   width: 50%;
@@ -37,9 +50,9 @@ header nav div ul li .lista-menu:hover {
 }
 
 .slider {
-  width: 85%;
+  width: 75%;
   margin: auto;
-  padding-top: 0%;
+  padding-top: 1%;
   align-content: center;
   justify-content: center;
   overflow: hidden;
@@ -86,54 +99,41 @@ header nav div ul li .lista-menu:hover {
   }
 }
 
-/* FOOTER */
 .pie-web {
-  padding: 5%;
   display: flex;
-  width: 85%;
-  padding: 5%;
+  padding: 2%;
+  margin: 10px;
   justify-content: space-between;
   align-content: center;
-  color: gray;
-  font-size: 1rem;
 }
-@media only screen and (max-width: 441px) {
-  .pie-web {
-    font-size: x-small;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2%;
-  }
-  .pie-web .derechos-r .txt-der {
-    width: auto;
-    justify-content: flex-start;
-    font-weight: bold;
-  }
-  .pie-web .derechos-r .txt-der .redes-s {
-    width: auto;
-    align-content: space-between;
-  }
+.pie-web .derechos-r {
+  justify-content: space-around;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #6b6b6b;
+  font-size: x-small;
+}
+.pie-web .derechos-r .redes-s {
+  width: 10%;
+  justify-content: space-around;
 }
 
-.cont-servicios {
-  background-color: rgb(255, 255, 255);
+#estudios {
+  font-family: "Source Code Pro", monospace;
+}
+#estudios .cont-estudios {
+  padding-top: 5%;
+  margin: 1rem;
   align-items: center;
   justify-content: center;
 }
-.cont-servicios .titulos-seccion {
+#estudios .cont-estudios .titulos-seccion {
   display: flex;
   font-family: "Source Code Pro", monospace;
   font-size: 2rem;
   align-items: center;
   justify-content: center;
-  padding-top: 3%;
-  padding-bottom: 5%;
-}
-.cont-servicios .titulos-seccion .img .items-serv {
-  padding: 20%;
-  color: rgb(99, 6, 6);
+  padding-bottom: 8%;
 }
 
 * {
@@ -145,6 +145,17 @@ header nav div ul li .lista-menu:hover {
 h1 {
   color: rgb(99, 6, 6);
   font-size: 1.5rem;
+  padding-bottom: 2%;
+}
+
+h2 {
+  font-family: "Source Code Pro", monospace;
+  font-size: 2rem;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
 }
 
 h3 {
@@ -154,10 +165,12 @@ h3 {
 
 .bio {
   font-family: "Source Code Pro", monospace;
-}
-.bio .contenedor-bio {
   width: 85%;
+  margin: auto;
   padding-top: 5%;
+  padding-bottom: 1%;
+  align-content: center;
+  justify-content: center;
 }
 .bio .contenedor-bio .titulos-seccion-bio {
   padding-top: 3%;
@@ -169,29 +182,28 @@ h3 {
   font-display: swap;
 }
 
-.seccion-portfolio {
+#portfolio {
   width: 100%;
   height: 100%;
-  padding-bottom: 3%;
+  padding-bottom: 2%;
 }
-.seccion-portfolio .columna {
+#portfolio .columna {
   margin: 0 !important;
   padding: 1rem;
 }
-.seccion-portfolio .columna .img-portfolio {
+#portfolio .columna .img-portfolio {
   border-radius: 3%;
   width: 100%;
 }
-.seccion-portfolio .columna .img-portfolio:hover {
+#portfolio .columna .img-portfolio:hover {
   border: 8px solid rgb(255, 255, 255);
 }
 
 .contacto {
   width: 85%;
-  padding-top: 10%;
-  padding-bottom: 5%;
-  align-content: center;
-  justify-content: center;
+  padding-top: 5%;
+  align-items: center;
+  justify-items: center;
 }
 .contacto .titulos-seccion-contacto {
   display: flex;
@@ -200,21 +212,21 @@ h3 {
   align-items: center;
   justify-content: center;
   padding-top: 5%;
+  padding-bottom: 5%;
 }
 
-tienda {
-  width: 100%;
-  height: 100%;
+#tienda {
+  width: 85%;
+  margin: auto;
+  padding-top: 2%;
   padding-bottom: 5%;
-}
-tienda .titulo-seccion {
-  display: flex;
-  font-family: "Source Code Pro", monospace;
-  font-size: 2rem;
-  align-items: center;
+  align-content: center;
   justify-content: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  font-family: "Source Code Pro", monospace;
+}
+#tienda .sec-tienda {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1 fr));
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,6 +6,8 @@ header {
     font-family: $font-family;
     background-color: map-get($header, bg-color);
     width: 100%;
+    padding-top: 2%;
+    margin: 1rem;
 
     nav { 
 
@@ -14,7 +16,7 @@ header {
         div {
 
             ul {
-             padding-top: 6rem;
+             padding-top:6.5rem;
 
                 li {
                   width: 50%;

@@ -1,42 +1,21 @@
-/* FOOTER */
 .pie-web{ 
-    padding:5%;
     display: flex;
-    width: 85%;
-    padding: 5%;
+    padding: 2%;
+    margin: 10px;
     justify-content: space-between;
     align-content: center;
-    color: gray;
-    font-size: 1rem;
+
+    .derechos-r{ justify-content: space-around;
+     font-family: sans-serif;
+     font-weight:bold;
+     color: #6b6b6b;
+     font-size:x-small;
     
-    @media only screen and (max-width: 441px){
-    font-size: x-small;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2%;
-    
+        .redes-s{
+         width: 10%;
+         justify-content: space-around;
 
-    .derechos-r{
-
-      .txt-der{width: auto;
-                 justify-content: flex-start;
-                 font-weight:bold;
-                 
-
-        
-        
-    
-        .redes-s{width: auto;
-                 align-content: space-between;
-
-
-
-
-
-  }
+      }
+    }
 }
-}
-}
-}
+      

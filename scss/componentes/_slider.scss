@@ -1,25 +1,25 @@
 .slider{
-    width:85%;
+    width:75%;
     margin: auto;
-	padding-top: 0%;
+	padding-top: 1%;
     align-content: center;
     justify-content: center;
     overflow: hidden;
-
+       
 
     .carrousel{  
-        display: flex;
-        width: 400%;
+     display: flex;
+     width: 400%;
 
-        animation: carrousel 20s linear infinite alternate;
+         animation: carrousel 20s linear infinite alternate;
 
-        li {list-style:none;
+            li {list-style:none;
        
            
-            .ilus-carrousel{
-                width: 100%;
+                .ilus-carrousel{
+                 width: 100%;
 
-                @keyframes carrousel{
+                      @keyframes carrousel{
                     /* PRIMER ILUS */
                     
                     0%{margin-left: 0;}
@@ -41,13 +41,13 @@
                     75%{margin-left: -300%;}
                     100%{margin-left: -300%;}
 
-				
-						
-					}
-                      
-                    
-                    } 
-                }
+                     
+				}	
             }
-        }
-    
+					
+        }	
+    }
+                
+                
+}	
+
